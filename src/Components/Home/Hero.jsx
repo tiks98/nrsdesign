@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import HeroImage from "./HeroImage";
 export function Hero({}) {
 	return (
 		<section className="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row">
@@ -39,14 +40,15 @@ export function Hero({}) {
 					</Link>
 				</div>
 			</div>
-			<div className="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-5/12">
+			{/* <div className="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-5/12">
 				<img
 					src="https://images.unsplash.com/photo-1618004912476-29818d81ae2e?auto=format&q=75&fit=crop&w=1000"
 					loading="lazy"
 					alt="by Fakurian Design"
 					className="h-full w-full object-cover object-center"
 				/>
-			</div>
+			</div> */}
+			<HeroImage />
 		</section>
 	);
 }
