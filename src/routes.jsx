@@ -3,32 +3,30 @@ import React from "react";
 
 import HomePage from "./Pages/Home";
 import Contact from "./Pages/Contact";
+import Landing from "./layouts/Landing";
+import Page404 from "./Pages/common/Page404";
 // const Home = lazy(() => import("./Pages/Home"));
 
 const routes = [
 	{
 		path: "/",
-		element: <HomePage />,
-		// children: [
-		//     { path: "", element: <Home /> },
-		//     { path: "FAQ", element: <FAQ /> },
-		// ],
+		element: <Landing />,
+		children: [
+			{ path: "", element: <HomePage /> },
+			{ path: "contact", element: <Contact /> },
+		],
 	},
 	{
 		path: "",
-		element: <HomePage />,
-		// children: [
-		//     { path: "", element: <Home /> },
-		//     { path: "FAQ", element: <FAQ /> },
-		// ],
+		element: <Landing />,
+		children: [
+			{ path: "", element: <HomePage /> },
+			{ path: "contact", element: <Contact /> },
+		],
 	},
 	{
-		path: "contact",
-		element: <Contact />,
-		// children: [
-		//     { path: "", element: <Home /> },
-		//     { path: "FAQ", element: <FAQ /> },
-		// ],
+		path: "*",
+		element: <Page404 />,
 	},
 ];
 

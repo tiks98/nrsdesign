@@ -1,4 +1,3 @@
-import HomePage from "./Pages/Home";
 import { useRoutes } from "react-router-dom";
 
 import routes from "./routes";
