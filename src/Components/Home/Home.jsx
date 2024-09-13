@@ -2,7 +2,7 @@ import React from "react";
 import { Testimonials } from "./Testimonials";
 import { TeamIntro } from "./TeamIntro";
 import { TeamStats } from "./TeamStats";
-import { TrustedBy } from "./TrustedBy";
+// import { TrustedBy } from "./TrustedBy";
 import { Advantage } from "./Advantage";
 import { Hero } from "./Hero";
 
@@ -15,7 +15,7 @@ const Home = () => {
 				</div>
 			</div>
 			<Advantage />
-			<TrustedBy />
+			{/* <TrustedBy /> */}
 			<TeamStats />
 			<TeamIntro />
 			<Testimonials />

@@ -1,17 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import HeroImage from "./HeroImage";
+import { RevealLinks } from "./FlipText";
 export function Hero({}) {
 	return (
 		<section className="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row">
 			<div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
-				<p className="mb-4 font-semibold text-indigo-500 md:mb-6 md:text-lg xl:text-xl">
+				<p className="mb-4 font-semibold text-indigo-500 md:mb-6 md:text-2xl xl:text-3xl">
 					Welcome to NRS Design
 				</p>
 
-				<h1 className="mb-8 text-4xl font-bold text-black sm:text-5xl md:mb-12 md:text-6xl">
+				{/* <h1 className="mb-8 text-4xl font-bold text-black sm:text-5xl md:mb-12 md:text-6xl">
 					Where Innovation Meets Creativity
-				</h1>
+				</h1> */}
+				<RevealLinks />
 
 				<p className="mb-8 leading-relaxed text-gray-500 md:mb-12 lg:w-4/5 xl:text-lg">
 					At NRS Design, we turn ideas into visually stunning, high-performance
