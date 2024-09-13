@@ -19,7 +19,7 @@ export function Footer({}) {
 									xmlns="http://www.w3.org/2000/svg">
 									<path d="M96 0V47L48 94H0V47L48 0H96Z" />
 								</svg>
-								Flowrift
+								NRS Design
 							</a>
 						</div>
 						<p className="mb-6 text-gray-400 sm:pr-8">
@@ -247,7 +247,7 @@ export function Footer({}) {
 				</div>
 
 				<div className="border-t border-gray-800 py-8 text-center text-sm text-gray-400">
-					© 2021 - Present Flowrift. All rights reserved.
+					© 2021 - Present NRS Design. All rights reserved.
 				</div>
 			</footer>
 		</div>

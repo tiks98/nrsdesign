@@ -17,7 +17,7 @@ export function Navbar({}) {
 							xmlns="http://www.w3.org/2000/svg">
 							<path d="M96 0V47L48 94H0V47L48 0H96Z" />
 						</svg>
-						Flowrift
+						NRS Design
 					</a>
 
 					<nav className="hidden gap-12 lg:flex">

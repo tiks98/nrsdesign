@@ -19,7 +19,7 @@ const Page404 = () => (
 							xmlns="http://www.w3.org/2000/svg">
 							<path d="M96 0V47L48 94H0V47L48 0H96Z" />
 						</svg>
-						Flowrift
+						NRS Design
 					</a>
 
 					<p class="mb-4 text-sm font-semibold uppercase text-indigo-500 md:text-base">
