@@ -1,9 +1,10 @@
 import React from "react";
 import { Testimonials } from "./Testimonials";
 import { TeamIntro } from "./TeamIntro";
-import { TeamStats } from "./TeamStats";
+// import { TeamStats } from "./TeamStats";
 // import { TrustedBy } from "./TrustedBy";
-import { Advantage } from "./Advantage";
+// import { Advantage } from "./Advantage";
+import { ServicesCard } from "./ServicesCard";
 import { Hero } from "./Hero";
 
 const Home = () => {
@@ -14,9 +15,10 @@ const Home = () => {
 					<Hero />
 				</div>
 			</div>
-			<Advantage />
+			<ServicesCard />
+			{/* <Advantage /> */}
 			{/* <TrustedBy /> */}
-			<TeamStats />
+			{/* <TeamStats /> */}
 			<TeamIntro />
 			<Testimonials />
 		</>

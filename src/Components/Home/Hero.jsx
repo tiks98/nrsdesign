@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import HeroImage from "./HeroImage";
 import { RevealLinks } from "./FlipText";
-export function Hero({}) {
+export function Hero() {
 	return (
 		<section className="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row">
 			<div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
