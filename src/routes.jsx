@@ -11,15 +11,7 @@ import AboutUs from "./Pages/About";
 
 const routes = [
 	{
-		path: "/",
-		element: <Landing />,
-		children: [
-			{ path: "", element: <HomePage /> },
-			{ path: "contact", element: <Contact /> },
-		],
-	},
-	{
-		path: "",
+		path: "/nrsdesign",
 		element: <Landing />,
 		children: [
 			{ path: "", element: <HomePage /> },
@@ -28,6 +20,16 @@ const routes = [
 			{ path: "contact", element: <Contact /> },
 		],
 	},
+	// {
+	// 	path: "",
+	// 	element: <Landing />,
+	// 	children: [
+	// 		{ path: "", element: <HomePage /> },
+	// 		{ path: "services", element: <Services /> },
+	// 		{ path: "about", element: <AboutUs /> },
+	// 		{ path: "contact", element: <Contact /> },
+	// 	],
+	// },
 	{
 		path: "*",
 		element: <Page404 />,

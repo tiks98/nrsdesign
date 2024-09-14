@@ -7,7 +7,7 @@ const Page404 = () => (
 			<div class="mx-auto max-w-screen-2xl px-4 md:px-8">
 				<div class="flex flex-col items-center">
 					<a
-						href="/"
+						href="/nrsdesign"
 						class="mb-8 inline-flex items-center gap-2.5 text-2xl font-bold text-black md:text-3xl"
 						aria-label="logo">
 						<svg
@@ -33,9 +33,9 @@ const Page404 = () => (
 						The page you’re looking for doesn’t exist.
 					</p>
 
-					<Link to="/">
+					<Link to="/nrsdesign">
 						<a
-							href="/"
+							href="/nrsdesign"
 							class="inline-block rounded-lg bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base">
 							Go home
 						</a>

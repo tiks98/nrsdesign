@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 export const RevealLinks = () => {
 	return (
 		<section className="mb-8 text-4xl font-bold text-black sm:text-5xl md:mb-12 md:text-6xl">
-			<FlipLink href="/">Where</FlipLink>
-			<FlipLink href="/">Innovation</FlipLink>
-			<FlipLink href="/">Meets</FlipLink>
-			<FlipLink href="/">Creativity</FlipLink>
+			<FlipLink href="/nrsdesign">Where</FlipLink>
+			<FlipLink href="/nrsdesign">Innovation</FlipLink>
+			<FlipLink href="/nrsdesign">Meets</FlipLink>
+			<FlipLink href="/nrsdesign">Creativity</FlipLink>
 		</section>
 	);
 };

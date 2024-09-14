@@ -7,7 +7,7 @@ export function Footer() {
 					<div className="col-span-full lg:col-span-2">
 						<div className="mb-4 lg:-mt-2">
 							<a
-								href="/"
+								href="/nrsdesign"
 								className="inline-flex items-center gap-2 text-xl font-bold text-gray-100 md:text-2xl"
 								aria-label="logo">
 								{/* <svg
@@ -100,7 +100,7 @@ export function Footer() {
 						<nav className="flex flex-col gap-4">
 							<div>
 								<a
-									href="/"
+									href="/nrsdesign"
 									className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600">
 									Overview
 								</a>
@@ -108,7 +108,7 @@ export function Footer() {
 
 							<div>
 								<a
-									href="/services"
+									href="/nrsdesign/services"
 									className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600">
 									Services
 								</a>
@@ -123,7 +123,7 @@ export function Footer() {
 						<nav className="flex flex-col gap-4">
 							<div>
 								<a
-									href="/about"
+									href="/nrsdesign/about"
 									className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600">
 									About
 								</a>
@@ -138,7 +138,7 @@ export function Footer() {
 						<nav className="flex flex-col gap-4">
 							<div>
 								<a
-									href="/contact"
+									href="/nrsdesign/contact"
 									className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600">
 									Contact
 								</a>
@@ -154,7 +154,7 @@ export function Footer() {
 
 							<div>
 								<a
-									href="/contact"
+									href="/nrsdesign/contact"
 									className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600">
 									Chat
 								</a>
@@ -169,7 +169,7 @@ export function Footer() {
 						<nav className="flex flex-col gap-4">
 							<div>
 								<a
-									href="/"
+									href="/nrsdesign"
 									className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600">
 									Terms of Service
 								</a>
