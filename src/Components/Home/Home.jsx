@@ -9,7 +9,7 @@ import { Hero } from "./Hero";
 const Home = () => {
 	return (
 		<>
-			<div className="bg-white pb-6 sm:pb-8 lg:pb-12">
+			<div className="bg-white pb-6 sm:pb-16 lg:pb-24">
 				<div className="mx-auto max-w-screen-2xl px-4 md:px-8">
 					<Hero />
 				</div>

@@ -27,9 +27,9 @@ export function Navbar({}) {
 							Home
 						</a>
 						<a
-							href="#"
+							href="/services"
 							className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700">
-							Features
+							Services
 						</a>
 						<a
 							href="#"
