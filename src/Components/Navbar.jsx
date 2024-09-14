@@ -1,5 +1,7 @@
 import React from "react";
-export function Navbar({}) {
+import { NavLink } from "react-router-dom";
+
+export function Navbar() {
 	return (
 		<div className="bg-white pb-6 sm:pb-8 lg:pb-12">
 			<div className="mx-auto max-w-screen-2xl px-4 md:px-8">
@@ -21,32 +23,51 @@ export function Navbar({}) {
 					</a>
 
 					<nav className="hidden gap-12 lg:flex">
-						<a
-							href="/"
-							className="text-lg font-semibold text-indigo-500">
+						<NavLink
+							to="/"
+							className={({ isActive }) =>
+								isActive
+									? "text-lg font-semibold text-indigo-500"
+									: "text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
+							}>
 							Home
-						</a>
-						<a
-							href="/services"
-							className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700">
+						</NavLink>
+						<NavLink
+							to="/services"
+							className={({ isActive }) =>
+								isActive
+									? "text-lg font-semibold text-indigo-500"
+									: "text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
+							}>
 							Services
-						</a>
-						<a
-							href="#"
-							className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700">
+						</NavLink>
+						<NavLink
+							to="/pricing"
+							className={({ isActive }) =>
+								isActive
+									? "text-lg font-semibold text-indigo-500"
+									: "text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
+							}>
 							Pricing
-						</a>
-						<a
-							href="#"
-							className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700">
+						</NavLink>
+						<NavLink
+							to="/about"
+							className={({ isActive }) =>
+								isActive
+									? "text-lg font-semibold text-indigo-500"
+									: "text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
+							}>
 							About
-						</a>
+						</NavLink>
 					</nav>
 
 					<a
 						href="/contact"
-						className="hidden rounded-lg bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:inline-block">
-						Contact Sales
+						className="relative inline-block overflow-hidden font-semibold bg-gray-200 px-8 py-3 text-center text-sm text-gray-500 rounded-lg outline-none ring-indigo-300 transition-all duration-500 group hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:inline-block">
+						<span class="w-56 h-48 rounded bg-indigo-600 absolute bottom-0 left-0 translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
+						<span class="relative w-full text-left text-gray-500 transition-colors duration-300 ease-in-out group-hover:text-white">
+							Contact Sales
+						</span>
 					</a>
 
 					<button
@@ -58,9 +79,9 @@ export function Navbar({}) {
 							viewBox="0 0 20 20"
 							fill="currentColor">
 							<path
-								fill-rule="evenodd"
+								fillRule="evenodd"
 								d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-								clip-rule="evenodd"
+								clipRule="evenodd"
 							/>
 						</svg>
 						Menu
