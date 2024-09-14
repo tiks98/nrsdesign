@@ -5,12 +5,18 @@ export function Navbar() {
 	return (
 		<div className="bg-white pb-6 sm:pb-8 lg:pb-12">
 			<div className="mx-auto max-w-screen-2xl px-4 md:px-8">
-				<header className="mb-8 flex items-center justify-between py-4 md:mb-12 md:py-8 xl:mb-16">
+				<header className="mb-8 flex items-center justify-between py-4 md:mb-8 md:py-8 xl:mb-12">
 					<a
 						href="/"
 						className="inline-flex items-center gap-2.5 text-2xl font-bold text-black md:text-3xl"
 						aria-label="logo">
-						<svg
+						<img
+							src={process.env.PUBLIC_URL + "/images/LogoBG.png"}
+							alt="logo"
+							height={150}
+							width={150}
+						/>
+						{/* <svg
 							width="95"
 							height="94"
 							viewBox="0 0 95 94"
@@ -18,8 +24,8 @@ export function Navbar() {
 							fill="currentColor"
 							xmlns="http://www.w3.org/2000/svg">
 							<path d="M96 0V47L48 94H0V47L48 0H96Z" />
-						</svg>
-						NRS Design
+						</svg> */}
+						{/* Design */}
 					</a>
 
 					<nav className="hidden gap-12 lg:flex">
@@ -60,7 +66,7 @@ export function Navbar() {
 
 					<a
 						href="/contact"
-						className="relative inline-block overflow-hidden font-semibold bg-gray-200 px-8 py-3 text-center text-sm text-gray-500 rounded-lg outline-none ring-indigo-300 transition-all duration-500 group hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:inline-block">
+						className="relative hidden inline-block overflow-hidden font-semibold bg-gray-200 px-8 py-3 text-center text-sm text-gray-500 rounded-lg outline-none ring-indigo-300 transition-all duration-500 group hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:inline-block">
 						<span class="w-56 h-48 rounded bg-indigo-600 absolute bottom-0 left-0 translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
 						<span class="relative w-full text-left text-gray-500 transition-colors duration-300 ease-in-out group-hover:text-white">
 							Contact Sales
