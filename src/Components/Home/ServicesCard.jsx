@@ -10,7 +10,7 @@ export const ServicesCard = () => {
 					Grow faster with our <br />
 					<span className="text-slate-400"> all in one solution</span>
 				</h2>
-				<Link to="/services">
+				<Link to="/nrsdesign/services">
 					<motion.button
 						whileHover={{ scale: 1.05 }}
 						whileTap={{ scale: 0.95 }}
