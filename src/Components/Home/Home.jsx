@@ -1,5 +1,5 @@
 import React from "react";
-import { Testimonials } from "./Testimonials";
+// import { Testimonials } from "./Testimonials";
 import { TeamIntro } from "./TeamIntro";
 // import { TeamStats } from "./TeamStats";
 // import { TrustedBy } from "./TrustedBy";
@@ -20,7 +20,7 @@ const Home = () => {
 			{/* <TrustedBy /> */}
 			{/* <TeamStats /> */}
 			<TeamIntro />
-			<Testimonials />
+			{/* <Testimonials /> */}
 		</>
 	);
 };
