@@ -46,17 +46,6 @@ export function Navbar() {
 							<span class="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-indigo-600 group-hover:w-3/6"></span>
 						</NavLink>
 						<NavLink
-							to="/pricing"
-							className={({ isActive }) =>
-								isActive
-									? "text-lg font-semibold text-indigo-500 relative group"
-									: "text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700 relative group"
-							}>
-							Pricing
-							<span class="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-indigo-600 group-hover:w-3/6"></span>
-							<span class="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-indigo-600 group-hover:w-3/6"></span>
-						</NavLink>
-						<NavLink
 							to="/about"
 							className={({ isActive }) =>
 								isActive

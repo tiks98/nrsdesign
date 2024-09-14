@@ -6,10 +6,10 @@ import {
 	useSpring,
 } from "framer-motion";
 
-const HeroImage = () => {
+const HeroImage = ({ src }) => {
 	return (
-		<div className="h-48 overflow-hidden rounded-lg bg-white-900 lg:h-auto xl:w-5/12">
-			<TiltCard />
+		<div className="h-48 overflow-hidden rounded-lg bg-white-900 lg:h-full lg:w-auto">
+			<TiltCard imgSrc={src} />
 		</div>
 	);
 };
@@ -17,7 +17,7 @@ const HeroImage = () => {
 const ROTATION_RANGE = 32.5;
 const HALF_ROTATION_RANGE = 32.5 / 2;
 
-const TiltCard = () => {
+const TiltCard = ({ imgSrc }) => {
 	const ref = useRef(null);
 
 	const x = useMotionValue(0);
@@ -62,9 +62,9 @@ const TiltCard = () => {
 			}}
 			className="relative h-full w-full overflow-hidden rounded-lg shadow-lg">
 			<img
-				src="https://images.unsplash.com/photo-1618004912476-29818d81ae2e?auto=format&q=75&fit=crop&w=1000"
+				src={imgSrc}
 				loading="lazy"
-				alt="by Fakurian Design"
+				alt="HeroImg"
 				className="h-full w-full object-cover object-center"
 				style={{
 					transform: "translateZ(75px)",

@@ -50,7 +50,13 @@ export function Hero() {
 					className="h-full w-full object-cover object-center"
 				/>
 			</div> */}
-			<HeroImage />
+			<div className=" xl:h-auto xl:w-5/12">
+				<HeroImage
+					src={
+						"https://images.unsplash.com/photo-1618004912476-29818d81ae2e?auto=format&q=75&fit=crop&w=1000"
+					}
+				/>
+			</div>
 		</section>
 	);
 }
