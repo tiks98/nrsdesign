@@ -1,5 +1,5 @@
 import React from "react";
-export function Testimonials({}) {
+export function Testimonials() {
 	return (
 		<div className="bg-white py-6 sm:py-8 lg:py-12">
 			<div className="mx-auto max-w-screen-xl px-4 md:px-8">
@@ -19,7 +19,7 @@ export function Testimonials({}) {
 								<img
 									src="https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=112"
 									loading="lazy"
-									alt="Photo by Radu Florin"
+									alt="Radu Florin"
 									className="h-full w-full object-cover object-center"
 								/>
 							</div>
@@ -45,7 +45,7 @@ export function Testimonials({}) {
 								<img
 									src="https://images.unsplash.com/photo-1532073150508-0c1df022bdd1?auto=format&q=75&fit=crop&w=112"
 									loading="lazy"
-									alt="Photo by christian ferrer"
+									alt="christian ferrer"
 									className="h-full w-full object-cover object-center"
 								/>
 							</div>
@@ -71,7 +71,7 @@ export function Testimonials({}) {
 								<img
 									src="https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&q=75&fit=crop&w=500"
 									loading="lazy"
-									alt="Photo by Ayo Ogunseinde"
+									alt="Ayo Ogunseinde"
 									className="h-full w-full object-cover object-center"
 								/>
 							</div>

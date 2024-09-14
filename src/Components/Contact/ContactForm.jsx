@@ -1,8 +1,14 @@
 import React from "react";
 
-export function ContactForm({}) {
+export function ContactForm() {
 	return (
-		<div className="bg-white py-6 sm:py-8 lg:py-12">
+		<div className="bg-white lg:mb-48 sm:mb-24">
+			{/* <div class="relative flex flex-wrap bg-red-500 px-4 py-3 sm:flex-nowrap sm:items-center sm:justify-center sm:gap-3 sm:pr-8 md:px-8">
+				<div class="order-1 mb-2 inline-block w-11/12 max-w-screen-sm text-sm text-white sm:order-none sm:mb-0 sm:w-auto md:text-base">
+					This is a section of some simple filler text, also known as
+					placeholder text.
+				</div>
+			</div> */}
 			<div className="mx-auto max-w-screen-2xl px-4 md:px-8">
 				{/* text - start */}
 				<div className="mb-10 md:mb-16">
@@ -102,7 +108,7 @@ export function ContactForm({}) {
 					<p className="text-xs text-gray-400">
 						By signing up to our newsletter you agree to our{" "}
 						<a
-							href="#"
+							href="/"
 							className="underline transition duration-100 hover:text-indigo-500 active:text-indigo-600">
 							Privacy Policy
 						</a>

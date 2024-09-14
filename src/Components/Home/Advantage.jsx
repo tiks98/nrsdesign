@@ -1,5 +1,5 @@
 import React from "react";
-export function Advantage({}) {
+export function Advantage() {
 	return (
 		<div className="bg-white py-6 sm:py-8 lg:py-12">
 			<div className="mx-auto max-w-screen-2xl px-4 md:px-8">
@@ -40,7 +40,7 @@ export function Advantage({}) {
 								very similar to real text.
 							</p>
 							<a
-								href="#"
+								href="/"
 								className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">
 								More
 							</a>
@@ -72,7 +72,7 @@ export function Advantage({}) {
 								very similar to real text.
 							</p>
 							<a
-								href="#"
+								href="/"
 								className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">
 								More
 							</a>
@@ -102,7 +102,7 @@ export function Advantage({}) {
 								very similar to real text.
 							</p>
 							<a
-								href="#"
+								href="/"
 								className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">
 								More
 							</a>
@@ -132,7 +132,7 @@ export function Advantage({}) {
 								very similar to real text.
 							</p>
 							<a
-								href="#"
+								href="/"
 								className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">
 								More
 							</a>
@@ -162,7 +162,7 @@ export function Advantage({}) {
 								very similar to real text.
 							</p>
 							<a
-								href="#"
+								href="/"
 								className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">
 								More
 							</a>
@@ -194,7 +194,7 @@ export function Advantage({}) {
 								very similar to real text.
 							</p>
 							<a
-								href="#"
+								href="/"
 								className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">
 								More
 							</a>
