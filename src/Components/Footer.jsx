@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 export function Footer() {
 	return (
 		<div className="bg-gray-900">
@@ -6,11 +7,12 @@ export function Footer() {
 				<div className="mb-16 grid grid-cols-2 gap-12 pt-10 md:grid-cols-4 lg:grid-cols-6 lg:gap-8 lg:pt-12">
 					<div className="col-span-full lg:col-span-2">
 						<div className="mb-4 lg:-mt-2">
-							<a
-								href="/nrsdesign"
-								className="inline-flex items-center gap-2 text-xl font-bold text-gray-100 md:text-2xl"
-								aria-label="logo">
-								{/* <svg
+							<Link to="/nrsdesign">
+								<a
+									href="/nrsdesign"
+									className="inline-flex items-center gap-2 text-xl font-bold text-gray-100 md:text-2xl"
+									aria-label="logo">
+									{/* <svg
 									width="95"
 									height="94"
 									viewBox="0 0 95 94"
@@ -19,13 +21,14 @@ export function Footer() {
 									xmlns="http://www.w3.org/2000/svg">
 									<path d="M96 0V47L48 94H0V47L48 0H96Z" />
 								</svg> */}
-								<img
-									src={process.env.PUBLIC_URL + "/images/LogoBG.png"}
-									alt="logo"
-									height={150}
-									width={150}
-								/>
-							</a>
+									<img
+										src={process.env.PUBLIC_URL + "/images/LogoBG.png"}
+										alt="logo"
+										height={150}
+										width={150}
+									/>
+								</a>
+							</Link>
 						</div>
 						<p className="mb-6 text-gray-400 sm:pr-8">
 							Crafting innovative digital experiences from Barrie, ON.
@@ -99,19 +102,23 @@ export function Footer() {
 
 						<nav className="flex flex-col gap-4">
 							<div>
-								<a
-									href="/nrsdesign"
-									className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600">
-									Overview
-								</a>
+								<Link to="/nrsdesign">
+									<a
+										href="/nrsdesign"
+										className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600">
+										Overview
+									</a>
+								</Link>
 							</div>
 
 							<div>
-								<a
-									href="/nrsdesign/services"
-									className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600">
-									Services
-								</a>
+								<Link to="/nrsdesign/services">
+									<a
+										href="/nrsdesign/services"
+										className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600">
+										Services
+									</a>
+								</Link>
 							</div>
 						</nav>
 					</div>
@@ -122,11 +129,13 @@ export function Footer() {
 
 						<nav className="flex flex-col gap-4">
 							<div>
-								<a
-									href="/nrsdesign/about"
-									className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600">
-									About
-								</a>
+								<Link to="/nrsdesign/about">
+									<a
+										href="/nrsdesign/about"
+										className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600">
+										About
+									</a>
+								</Link>
 							</div>
 						</nav>
 					</div>
@@ -137,11 +146,13 @@ export function Footer() {
 
 						<nav className="flex flex-col gap-4">
 							<div>
-								<a
-									href="/nrsdesign/contact"
-									className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600">
-									Contact
-								</a>
+								<Link to="/nrsdesign/contact">
+									<a
+										href="/nrsdesign/contact"
+										className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600">
+										Contact
+									</a>
+								</Link>
 							</div>
 
 							<div>
@@ -153,26 +164,13 @@ export function Footer() {
 							</div>
 
 							<div>
-								<a
-									href="/nrsdesign/contact"
-									className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600">
-									Chat
-								</a>
-							</div>
-						</nav>
-					</div>
-					<div>
-						<div className="mb-4 font-bold uppercase tracking-widest text-gray-100">
-							Legal
-						</div>
-
-						<nav className="flex flex-col gap-4">
-							<div>
-								<a
-									href="/nrsdesign"
-									className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600">
-									Terms of Service
-								</a>
+								<Link to="/nrsdesign/contact">
+									<a
+										href="/nrsdesign/contact"
+										className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600">
+										Chat
+									</a>
+								</Link>
 							</div>
 						</nav>
 					</div>
