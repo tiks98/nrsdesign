@@ -39,11 +39,11 @@ export function ContactForm() {
 		// setStatus("Submitting...");
 		try {
 			await addDoc(collection(db, 'contacts'), formData);
-			setStatus({ show: true, variant: "success", message: "Contact Saved Successfully!" });
+			setStatus({ show: true, variant: "success", message: "We will reach out to you shortly!" });
 			// setFormData({ name: '', email: '', message: '' });
 		} catch (error) {
 			console.error('Error saving contact:', error);
-			setStatus({ show: true, variant: "danger", message: 'Error saving contact. Please try again later.' });
+			setStatus({ show: true, variant: "danger", message: 'Sorry for Inconvience, Please try again later.' });
 		} finally {
 			setTimeout(() => {
 				setStatus({ show: false, variant: "", message: "" });
@@ -206,14 +206,14 @@ export function ContactForm() {
 
 				{status.variant === "success" && status.show && (
 					<div class="mx-auto max-w-screen-md mt-4 mb-4 bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative" role="alert">
-					<strong class="font-bold">Success!</strong>{" "}
+					<strong class="font-bold">Thank You!</strong>{" "}
 					<span class="block sm:inline">{status.message}</span>
 				</div>
 				)}
 
 				{status.variant === "danger" && status.show && (
 					<div class="mx-auto max-w-screen-md mt-4 mb-4 bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
-						<strong class="font-bold">Error!</strong>{" "}
+						<strong class="font-bold">Oops!</strong>{" "}
 						<span class="block sm:inline">{status.message}</span>
 					</div>
 				)}
