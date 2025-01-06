@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { db, collection, addDoc, serverTimestamp } from '../../firebase';
+import { db, collection, addDoc } from '../../firebase';
 
 export function ContactForm() {
 	// State to store form data
@@ -38,7 +38,7 @@ export function ContactForm() {
 		e.preventDefault();
 		// setStatus("Submitting...");
 		try {
-			const docRef = await addDoc(collection(db, 'contacts'), formData);
+			await addDoc(collection(db, 'contacts'), formData);
 			setStatus({ show: true, variant: "success", message: "Contact Saved Successfully!" });
 			// setFormData({ name: '', email: '', message: '' });
 		} catch (error) {
