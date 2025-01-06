@@ -1,6 +1,6 @@
 import React from "react";
 // import { Testimonials } from "./Testimonials";
-import { TeamIntro } from "./TeamIntro";
+// import { TeamIntro } from "./TeamIntro";
 // import { TeamStats } from "./TeamStats";
 // import { TrustedBy } from "./TrustedBy";
 // import { Advantage } from "./Advantage";
