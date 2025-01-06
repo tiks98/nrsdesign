@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { db, collection, addDoc, serverTimestamp } from '../../firebase';
 
 export function ContactForm() {
 	// State to store form data
@@ -10,6 +11,7 @@ export function ContactForm() {
 		subject: "",
 		message: "",
 	});
+	const [status, setStatus] = React.useState({ show: false, variant: "", message: "" });
 
 	// Function to handle input changes
 	const handleInputChange = (e) => {
@@ -32,10 +34,23 @@ export function ContactForm() {
 	};
 
 	// Function to handle form submission
-	const handleSubmit = (e) => {
+	const handleSubmit = async (e) => {
 		e.preventDefault();
+		// setStatus("Submitting...");
+		try {
+			const docRef = await addDoc(collection(db, 'contacts'), formData);
+			setStatus({ show: true, variant: "success", message: "Contact Saved Successfully!" });
+			// setFormData({ name: '', email: '', message: '' });
+		} catch (error) {
+			console.error('Error saving contact:', error);
+			setStatus({ show: true, variant: "danger", message: 'Error saving contact. Please try again later.' });
+		} finally {
+			setTimeout(() => {
+				setStatus({ show: false, variant: "", message: "" });
+			}, [3000])
+		}
 		console.log("Form Data:", JSON.stringify(formData, null, 2)); // Display form data as JSON in console
-		alert("Form has been submitted successfully");
+		// alert("Form has been submitted successfully");
 		resetForm();
 	};
 
@@ -164,7 +179,7 @@ export function ContactForm() {
 							placeholder="Please write your message here..."
 							value={formData.message}
 							onChange={handleInputChange}
-							className="h-64 w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring"></textarea>
+							className="h-32 w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring"></textarea>
 					</div>
 
 					<div className="flex items-center justify-between sm:col-span-2">
@@ -188,6 +203,20 @@ export function ContactForm() {
 					</p>
 				</form>
 				{/* form - end */}
+
+				{status.variant === "success" && status.show && (
+					<div class="mx-auto max-w-screen-md mt-4 mb-4 bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative" role="alert">
+					<strong class="font-bold">Success!</strong>{" "}
+					<span class="block sm:inline">{status.message}</span>
+				</div>
+				)}
+
+				{status.variant === "danger" && status.show && (
+					<div class="mx-auto max-w-screen-md mt-4 mb-4 bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
+						<strong class="font-bold">Error!</strong>{" "}
+						<span class="block sm:inline">{status.message}</span>
+					</div>
+				)}
 			</div>
 		</div>
 	);

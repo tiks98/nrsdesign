@@ -19,7 +19,7 @@ const Home = () => {
 			{/* <Advantage /> */}
 			{/* <TrustedBy /> */}
 			{/* <TeamStats /> */}
-			<TeamIntro />
+			{/* <TeamIntro /> */}
 			{/* <Testimonials /> */}
 		</>
 	);
