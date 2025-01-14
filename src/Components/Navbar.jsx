@@ -9,9 +9,9 @@ export function Navbar() {
 	};
 
 	return (
-		<div className="bg-white pb-6 sm:pb-8 lg:pb-12">
+		<div className="bg-white pb-6 sm:pb- 8 lg:pb- 12">
 			<div className="mx-auto max-w-screen-2xl px-4 md:px-8">
-				<header className="mb-8 flex items-center justify-between py-4 md:mb-8 md:py-8 xl:mb-12">
+				<header className="mb-8 flex items-center justify-between py- 4 md:mb- 8 md:py- 8 xl:mb- 12">
 					<a
 						href="/nrsdesign"
 						className="inline-flex items-center gap-2.5 text-2xl font-bold text-black md:text-3xl"
