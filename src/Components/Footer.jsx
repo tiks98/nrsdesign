@@ -177,7 +177,7 @@ export function Footer() {
 				</div>
 
 				<div className="border-t border-gray-800 py-8 text-center text-sm text-gray-400">
-					© 2024 - Present, NRS Design. All rights reserved.
+					© {new Date().getFullYear()} - Present, NRS Design. All rights reserved.
 				</div>
 			</footer>
 		</div>
