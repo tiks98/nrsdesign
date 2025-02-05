@@ -7,6 +7,7 @@ import Landing from "./layouts/Landing";
 import Page404 from "./Pages/common/Page404";
 import Services from "./Pages/Services";
 import AboutUs from "./Pages/About";
+import { Navigate, redirect } from "react-router-dom";
 // const Home = lazy(() => import("./Pages/Home"));
 
 const routes = [
@@ -14,7 +15,8 @@ const routes = [
 		path: "/nrsdesign",
 		element: <Landing />,
 		children: [
-			{ path: "", element: <HomePage /> },
+			{ path: "", element: <Navigate to="/nrsdesign/home" />},
+			{ path: "home", element: <HomePage /> },
 			{ path: "services", element: <Services /> },
 			{ path: "about", element: <AboutUs /> },
 			{ path: "contact", element: <Contact /> },
