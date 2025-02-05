@@ -7,7 +7,7 @@ import Landing from "./layouts/Landing";
 import Page404 from "./Pages/common/Page404";
 import Services from "./Pages/Services";
 import AboutUs from "./Pages/About";
-import { Navigate, redirect } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 // const Home = lazy(() => import("./Pages/Home"));
 
 const routes = [
