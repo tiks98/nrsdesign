@@ -206,9 +206,9 @@ export function ContactForm() {
 
 				{status.variant === "success" && status.show && (
 					<div class="mx-auto max-w-screen-md mt-4 mb-4 bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative" role="alert">
-					<strong class="font-bold">Thank You!</strong>{" "}
-					<span class="block sm:inline">{status.message}</span>
-				</div>
+						<strong class="font-bold">Thank You!</strong>{" "}
+						<span class="block sm:inline">{status.message}</span>
+					</div>
 				)}
 
 				{status.variant === "danger" && status.show && (

@@ -27,7 +27,7 @@ export function Navbar() {
 					{/* Desktop Navigation */}
 					<nav className="hidden gap-12 lg:flex">
 						<NavLink
-							to="/nrsdesign"
+							to="/nrsdesign/home"
 							className={({ isActive }) =>
 								isActive
 									? "text-lg font-semibold text-indigo-500 relative group"
