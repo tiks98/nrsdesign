@@ -50,11 +50,12 @@ export function Hero() {
 					className="h-full w-full object-cover object-center"
 				/>
 			</div> */}
-			<div className=" xl:h-auto xl:w-5/12">
+			<div className=" xl:h-auto xl:w-8/12">
 				<HeroImage
-					src={
-						"https://images.unsplash.com/photo-1618004912476-29818d81ae2e?auto=format&q=75&fit=crop&w=1000"
-					}
+					// src={
+					// 	"https://images.unsplash.com/photo-1618004912476-29818d81ae2e?auto=format&q=75&fit=crop&w=1000"
+					// }
+					src={process.env.PUBLIC_URL + "/svg/building_website.svg"}
 				/>
 			</div>
 		</section>

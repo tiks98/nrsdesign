@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { db, collection, addDoc } from '../../firebase';
+import { db, collection, addDoc } from "../../firebase";
 
 export function ContactForm() {
 	// State to store form data
@@ -11,7 +11,11 @@ export function ContactForm() {
 		subject: "",
 		message: "",
 	});
-	const [status, setStatus] = React.useState({ show: false, variant: "", message: "" });
+	const [status, setStatus] = React.useState({
+		show: false,
+		variant: "",
+		message: "",
+	});
 
 	// Function to handle input changes
 	const handleInputChange = (e) => {
@@ -38,16 +42,24 @@ export function ContactForm() {
 		e.preventDefault();
 		// setStatus("Submitting...");
 		try {
-			await addDoc(collection(db, 'contacts'), formData);
-			setStatus({ show: true, variant: "success", message: "We will reach out to you shortly!" });
+			await addDoc(collection(db, "contacts"), formData);
+			setStatus({
+				show: true,
+				variant: "success",
+				message: "We will reach out to you shortly!",
+			});
 			// setFormData({ name: '', email: '', message: '' });
 		} catch (error) {
-			console.error('Error saving contact:', error);
-			setStatus({ show: true, variant: "danger", message: 'Sorry for Inconvience, Please try again later.' });
+			console.error("Error saving contact:", error);
+			setStatus({
+				show: true,
+				variant: "danger",
+				message: "Sorry for Inconvience, Please try again later.",
+			});
 		} finally {
 			setTimeout(() => {
 				setStatus({ show: false, variant: "", message: "" });
-			}, [3000])
+			}, [3000]);
 		}
 		console.log("Form Data:", JSON.stringify(formData, null, 2)); // Display form data as JSON in console
 		// alert("Form has been submitted successfully");
@@ -205,16 +217,20 @@ export function ContactForm() {
 				{/* form - end */}
 
 				{status.variant === "success" && status.show && (
-					<div class="mx-auto max-w-screen-md mt-4 mb-4 bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative" role="alert">
-						<strong class="font-bold">Thank You!</strong>{" "}
-						<span class="block sm:inline">{status.message}</span>
+					<div
+						className="mx-auto max-w-screen-md mt-4 mb-4 bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative"
+						role="alert">
+						<strong className="font-bold">Thank You!</strong>{" "}
+						<span className="block sm:inline">{status.message}</span>
 					</div>
 				)}
 
 				{status.variant === "danger" && status.show && (
-					<div class="mx-auto max-w-screen-md mt-4 mb-4 bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
-						<strong class="font-bold">Oops!</strong>{" "}
-						<span class="block sm:inline">{status.message}</span>
+					<div
+						className="mx-auto max-w-screen-md mt-4 mb-4 bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative"
+						role="alert">
+						<strong className="font-bold">Oops!</strong>{" "}
+						<span className="block sm:inline">{status.message}</span>
 					</div>
 				)}
 			</div>

@@ -65,8 +65,8 @@ export function Navbar() {
 						<a
 							href="/nrsdesign/contact"
 							className="relative hidden inline-block overflow-hidden font-semibold bg-gray-200 px-8 py-3 text-center text-sm text-gray-500 rounded-lg outline-none ring-indigo-300 transition-all duration-500 group hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:inline-block">
-							<span class="w-56 h-48 rounded bg-indigo-600 absolute bottom-0 left-0 translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
-							<span class="relative w-full text-left text-gray-500 transition-colors duration-300 ease-in-out group-hover:text-white">
+							<span className="w-56 h-48 rounded bg-indigo-600 absolute bottom-0 left-0 translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
+							<span className="relative w-full text-left text-gray-500 transition-colors duration-300 ease-in-out group-hover:text-white">
 								Contact Sales
 							</span>
 						</a>
