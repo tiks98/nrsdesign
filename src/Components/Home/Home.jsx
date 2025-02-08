@@ -6,7 +6,7 @@ import React from "react";
 // import { Advantage } from "./Advantage";
 import { ServicesCard } from "./ServicesCard";
 import { Hero } from "./Hero";
-import { Design } from "./Design";
+import { Deploy, Design, Develop, Support } from "./Design";
 
 const Home = () => {
 	return (
@@ -17,6 +17,12 @@ const Home = () => {
 				</div>
 				<ServicesCard />
 				<Design />
+				<hr className="visible mx-6 my-4 sm:visible md:invisible lg:invisible lg:my-0 xl:my-0" />
+				<Develop />
+				<hr className="visible mx-6 my-4 sm:visible md:invisible lg:invisible lg:my-0 xl:my-0" />
+				<Deploy />
+				<hr className="visible mx-6 my-4 sm:visible md:invisible lg:invisible lg:my-0 xl:my-0" />
+				<Support />
 			</div>
 			{/* <Advantage /> */}
 			{/* <TrustedBy /> */}

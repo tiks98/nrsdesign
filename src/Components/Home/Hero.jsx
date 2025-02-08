@@ -51,7 +51,7 @@ export function Hero() {
 					className="h-full w-full object-cover object-center"
 				/>
 			</div> */}
-			<div className=" xl:h-auto xl:w-8/12">
+			<div className=" xl:h-auto xl:w-8/12 transform transition duration-300 hover:scale-110">
 				{/* Deploy Animation */}
 				{/* <DotLottieReact
 					src="https://lottie.host/d7e766c1-d22f-4e70-bf18-12423d614224/44HDBLBKE0.lottie"
