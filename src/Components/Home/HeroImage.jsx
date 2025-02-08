@@ -8,7 +8,7 @@ import {
 
 const HeroImage = ({ src }) => {
 	return (
-		<div className="h-48 overflow-hidden rounded-lg bg-white-900 lg:h-full lg:w-auto">
+		<div className="h-full overflow-hidden rounded-lg bg-white-900 lg:h-full lg:w-auto">
 			<TiltCard imgSrc={src} />
 		</div>
 	);
@@ -60,7 +60,7 @@ const TiltCard = ({ imgSrc }) => {
 				transformStyle: "preserve-3d",
 				transform,
 			}}
-			className="relative h-full w-full overflow-hidden rounded-lg shadow-lg">
+			className="relative h-auto w-auto overflow-hidden rounded-lg shadow-l g">
 			<img
 				src={imgSrc}
 				loading="lazy"
