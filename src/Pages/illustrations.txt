@@ -1,0 +1,84 @@
+{
+	/* Deploy Animation */
+}
+{
+	/* <DotLottieReact
+					src="https://lottie.host/d7e766c1-d22f-4e70-bf18-12423d614224/44HDBLBKE0.lottie"
+					loop
+					autoplay
+				/> */
+}
+
+{
+	/* User Interaction */
+}
+{
+	/* <DotLottieReact
+					src="https://lottie.host/8288c541-3ec4-45a7-8fb0-993849eff1db/GH61RlAm6p.lottie"
+					loop
+					autoplay
+				/> */
+}
+
+{
+	/* Graphs and Charts  */
+}
+{
+	/* <DotLottieReact
+					src="https://lottie.host/e25511b9-15c9-49d1-8586-f7810cac19f2/Uv7Dn5OAYD.lottie"
+					loop
+					autoplay
+				/> */
+}
+
+{
+	/* Computer screen  */
+}
+{
+	/* <DotLottieReact
+					src="https://lottie.host/015bc128-dde2-46f1-bc31-8fe4bc41cc59/en6vhSlFVt.lottie"
+					loop
+					autoplay
+				/> */
+}
+
+{
+	/* team work */
+}
+{
+	/* <DotLottieReact
+					src="https://lottie.host/1c531ac6-ad21-47c1-a516-25f9497e691f/GajOu0fO0s.lottie"
+					loop
+					autoplay
+				/> */
+}
+
+{
+	/* Website building  */
+}
+{
+	/* <DotLottieReact
+					src="https://lottie.host/c9e2ebee-a7c7-4114-afdb-9c8c73504905/aZhgoKTef5.lottie"
+					loop
+					autoplay
+				/> */
+}
+
+{
+	/* sitemap yml */
+}
+{
+	/* <DotLottieReact
+					src="https://lottie.host/876a6b1e-154c-4b10-a91e-6a9bf72a7ce2/RVuG2z5c6S.lottie"
+					loop
+					autoplay
+				/> */
+}
+{
+	/* <HeroImage
+					// src={
+					// 	"https://images.unsplash.com/photo-1618004912476-29818d81ae2e?auto=format&q=75&fit=crop&w=1000"
+					// }
+					src={process.env.PUBLIC_URL + "/svg/building_website.svg"}
+				/> */
+}
