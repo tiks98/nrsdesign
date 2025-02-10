@@ -30,7 +30,7 @@ export const Design = () => {
 					<div
 						ref={textRef}
 						className={`flex flex-col items-center justify-center sm:text-center lg:items-start lg:py-12 lg:text-left xl:w-7/12 xl:py-24 ${
-							textInView ? "animate-slideInRight" : "opacity-0 translate-x-full"
+							textInView && "animate-slideInRight"
 						}`}>
 						<h1 className="mb-8 text-3xl font-bold text-black sm:text-5xl md:mb-12 md:text-5xl">
 							Elevate Your Digital Experience with Stunning Design
@@ -86,9 +86,7 @@ export const Develop = () => {
 					<div
 						ref={imageRef}
 						className={`h-auto overflow-hidden rounded-lg lg:h-auto xl:w-6/12 hover:scale-110 ${
-							imageInView
-								? "animate-slideInRight"
-								: "opacity-0 translate-x-full"
+							imageInView && "animate-slideInRight"
 						}`}>
 						<DotLottieReact
 							src="https://lottie.host/1c531ac6-ad21-47c1-a516-25f9497e691f/GajOu0fO0s.lottie"
@@ -130,7 +128,7 @@ export const Deploy = () => {
 					<div
 						ref={textRef}
 						className={`flex flex-col items-center justify-center sm:text-center lg:items-start lg:py-12 lg:text-left xl:w-7/12 xl:py-24 ${
-							textInView ? "animate-slideInRight" : "opacity-0 translate-x-full"
+							textInView && "animate-slideInRight"
 						}`}>
 						<h1 className="mb-8 text-3xl font-bold text-black sm:text-5xl md:mb-12 md:text-5xl">
 							Effortless Deployment, Seamless Integration
@@ -184,9 +182,7 @@ export const Support = () => {
 					<div
 						ref={imageRef}
 						className={`h-auto overflow-hidden rounded-lg lg:h-auto xl:w-7/12 hover:scale-110 ${
-							imageInView
-								? "animate-slideInRight"
-								: "opacity-0 translate-x-full"
+							imageInView && "animate-slideInRight"
 						}`}>
 						<DotLottieReact
 							src="https://lottie.host/e25511b9-15c9-49d1-8586-f7810cac19f2/Uv7Dn5OAYD.lottie"
