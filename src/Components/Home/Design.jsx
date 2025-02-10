@@ -19,9 +19,7 @@ export const Design = () => {
 					<div
 						ref={imageRef}
 						className={`h-auto overflow-hidden rounded-lg lg:h-auto xl:w-8/12 transform hover:scale-110 ${
-							imageInView
-								? "animate-slideInLeft"
-								: "opacity-0 -translate-x-full"
+							imageInView && "animate-slideInLeft"
 						}`}>
 						<DotLottieReact
 							src="https://lottie.host/c9e2ebee-a7c7-4114-afdb-9c8c73504905/aZhgoKTef5.lottie"
@@ -70,7 +68,7 @@ export const Develop = () => {
 					<div
 						ref={textRef}
 						className={`flex flex-col items-center justify-center sm:text-center lg:items-start lg:py-12 lg:text-left xl:w-5/12 xl:py-24 xl:ps-24 ${
-							textInView ? "animate-slideInLeft" : "opacity-0 -translate-x-full"
+							textInView && "animate-slideInLeft"
 						}`}>
 						<h1 className="mb-8 text-3xl font-bold text-black sm:text-5xl md:mb-12 md:text-5xl">
 							Build for the Future with Expert Development
@@ -121,9 +119,7 @@ export const Deploy = () => {
 					<div
 						ref={imageRef}
 						className={`h-auto overflow-hidden rounded-lg lg:h-auto xl:w-8/12 hover:scale-110 ${
-							imageInView
-								? "animate-slideInLeft"
-								: "opacity-0 -translate-x-full"
+							imageInView && "animate-slideInLeft"
 						}`}>
 						<DotLottieReact
 							src="https://lottie.host/d7e766c1-d22f-4e70-bf18-12423d614224/44HDBLBKE0.lottie"
@@ -171,7 +167,7 @@ export const Support = () => {
 					<div
 						ref={textRef}
 						className={`flex flex-col items-center justify-center sm:text-center lg:items-start lg:py-12 lg:text-left xl:w-5/12 xl:py-24 xl:pl-28 ${
-							textInView ? "animate-slideInLeft" : "opacity-0 -translate-x-full"
+							textInView && "animate-slideInLeft"
 						}`}>
 						<h1 className="mb-8 text-3xl font-bold text-black sm:text-5xl md:mb-12 md:text-5xl">
 							Ongoing Support for Lasting Success
