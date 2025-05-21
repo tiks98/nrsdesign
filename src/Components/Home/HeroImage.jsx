@@ -8,7 +8,7 @@ import {
 
 const HeroImage = ({ src }) => {
 	return (
-		<div className="h-full overflow-hidden rounded-lg bg-white-900 lg:h-full lg:w-auto">
+		<div className="h-full overflow-hidden rounded-lg bg-gray-100 dark:bg-gray-800 lg:h-full lg:w-auto">
 			<TiltCard imgSrc={src} />
 		</div>
 	);

@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -8,6 +9,20 @@ body {
 		sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	@apply text-gray-800; /* Default text color for light mode */
+  /* Background color will be applied to html element */
+}
+
+html {
+  @apply bg-white; /* Light mode default background */
+}
+
+html.dark {
+  @apply bg-gray-900; /* Dark mode default background */
+}
+
+html.dark body {
+  @apply text-gray-100; /* Default text color for dark mode */
 }
 
 code {

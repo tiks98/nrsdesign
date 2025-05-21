@@ -13,7 +13,7 @@ export const Design = () => {
 	});
 
 	return (
-		<div className="bg-white py-6 sm:py-8 lg:py-12">
+		<div className="bg-white dark:bg-gray-900 py-6 sm:py-8 lg:py-12">
 			<div className="mx-auto max-w-screen-2xl px-4 md:px-8">
 				<section className="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row">
 					<div
@@ -32,10 +32,10 @@ export const Design = () => {
 						className={`flex flex-col items-center justify-center sm:text-center lg:items-start lg:py-12 lg:text-left xl:w-7/12 xl:py-24 ${
 							textInView && "animate-slideInRight"
 						}`}>
-						<h1 className="mb-8 text-3xl font-bold text-black sm:text-5xl md:mb-12 md:text-5xl">
+						<h1 className="mb-8 text-3xl font-bold text-black dark:text-gray-100 sm:text-5xl md:mb-12 md:text-5xl">
 							Elevate Your Digital Experience with Stunning Design
 						</h1>
-						<p className="mb-8 leading-relaxed text-gray-500 md:mb-12 lg:w-4/5 xl:text-lg">
+						<p className="mb-8 leading-relaxed text-gray-500 dark:text-gray-300 md:mb-12 lg:w-4/5 xl:text-lg">
 							At NRS Design, we craft user-centric designs that captivate and
 							engage. Our approach blends sleek, intuitive interfaces with
 							stunning visuals, ensuring a seamless and aesthetically pleasing
@@ -62,7 +62,7 @@ export const Develop = () => {
 	});
 
 	return (
-		<div className="bg-white py-6 sm:py-8 lg:py-12">
+		<div className="bg-white dark:bg-gray-900 py-6 sm:py-8 lg:py-12">
 			<div className="mx-auto max-w-screen-2xl pl-8 pr-0">
 				<section className="flex flex-col justify-around gap-2 sm:gap-5 md:gap-8 lg:flex-row">
 					<div
@@ -70,10 +70,10 @@ export const Develop = () => {
 						className={`flex flex-col items-center justify-center sm:text-center lg:items-start lg:py-12 lg:text-left xl:w-5/12 xl:py-24 xl:ps-24 ${
 							textInView && "animate-slideInLeft"
 						}`}>
-						<h1 className="mb-8 text-3xl font-bold text-black sm:text-5xl md:mb-12 md:text-5xl">
+						<h1 className="mb-8 text-3xl font-bold text-black dark:text-gray-100 sm:text-5xl md:mb-12 md:text-5xl">
 							Build for the Future with Expert Development
 						</h1>
-						<p className="mb-8 leading-relaxed text-gray-500 md:mb-12 lg:w-4/5 xl:text-lg">
+						<p className="mb-8 leading-relaxed text-gray-500 dark:text-gray-300 md:mb-12 lg:w-4/5 xl:text-lg">
 							At NRS Design, we create seamless, responsive websites that adapt
 							flawlessly to any device. Our scalable web development ensures
 							your platform grows with your business, delivering unmatched
@@ -111,7 +111,7 @@ export const Deploy = () => {
 	});
 
 	return (
-		<div className="bg-white py-6 sm:py-8 lg:py-12">
+		<div className="bg-white dark:bg-gray-900 py-6 sm:py-8 lg:py-12">
 			<div className="mx-auto max-w-screen-2xl px-4 md:px-8">
 				<section className="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row">
 					<div
@@ -130,10 +130,10 @@ export const Deploy = () => {
 						className={`flex flex-col items-center justify-center sm:text-center lg:items-start lg:py-12 lg:text-left xl:w-7/12 xl:py-24 ${
 							textInView && "animate-slideInRight"
 						}`}>
-						<h1 className="mb-8 text-3xl font-bold text-black sm:text-5xl md:mb-12 md:text-5xl">
+						<h1 className="mb-8 text-3xl font-bold text-black dark:text-gray-100 sm:text-5xl md:mb-12 md:text-5xl">
 							Effortless Deployment, Seamless Integration
 						</h1>
-						<p className="mb-8 leading-relaxed text-gray-500 md:mb-12 lg:w-4/5 xl:text-lg">
+						<p className="mb-8 leading-relaxed text-gray-500 dark:text-gray-300 md:mb-12 lg:w-4/5 xl:text-lg">
 							At NRS Design, we ensure a hassle-free web deployment process, so
 							your project goes live smoothly and efficiently. With seamless
 							integration, we connect all the pieces to work in perfect harmony.
@@ -159,7 +159,7 @@ export const Support = () => {
 	});
 
 	return (
-		<div className="bg-white py-6 sm:py-8 lg:py-12">
+		<div className="bg-white dark:bg-gray-900 py-6 sm:py-8 lg:py-12">
 			<div className="mx-auto max-w-screen-2xl px-4 md:px-8">
 				<section className="flex flex-col justify-around gap-6 sm:gap-10 md:gap-16 lg:flex-row">
 					<div
@@ -167,10 +167,10 @@ export const Support = () => {
 						className={`flex flex-col items-center justify-center sm:text-center lg:items-start lg:py-12 lg:text-left xl:w-5/12 xl:py-24 xl:pl-28 ${
 							textInView && "animate-slideInLeft"
 						}`}>
-						<h1 className="mb-8 text-3xl font-bold text-black sm:text-5xl md:mb-12 md:text-5xl">
+						<h1 className="mb-8 text-3xl font-bold text-black dark:text-gray-100 sm:text-5xl md:mb-12 md:text-5xl">
 							Ongoing Support for Lasting Success
 						</h1>
-						<p className="mb-8 leading-relaxed text-gray-500 md:mb-12 lg:w-4/5 xl:text-lg">
+						<p className="mb-8 leading-relaxed text-gray-500 dark:text-gray-300 md:mb-12 lg:w-4/5 xl:text-lg">
 							At NRS Design, our commitment doesn’t end at launch. With
 							continuous monitoring & care, we ensure your website runs smoothly
 							at all times. Expect regular updates, top-notch security, and

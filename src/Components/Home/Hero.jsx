@@ -20,7 +20,7 @@ export function Hero() {
 			<div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
 				<p
 					ref={textRef}
-					className={`mb-4 font-semibold text-indigo-500 md:mb-6 md:text-2xl xl:text-3xl ${
+					className={`mb-4 font-semibold text-indigo-500 dark:text-indigo-400 md:mb-6 md:text-2xl xl:text-3xl ${
 						textInView ? "animate-fadeInUp" : "opacity-0 -translate-y-4"
 					}`}>
 					Welcome to NRS Design
@@ -34,7 +34,7 @@ export function Hero() {
 				</div>
 
 				<p
-					className={`mb-8 leading-relaxed text-gray-500 md:mb-12 lg:w-4/5 xl:text-lg ${
+					className={`mb-8 leading-relaxed text-gray-500 dark:text-gray-300 md:mb-12 lg:w-4/5 xl:text-lg ${
 						textInView
 							? "animate-fadeInUp delay-500"
 							: "opacity-0 -translate-y-4"
@@ -53,9 +53,9 @@ export function Hero() {
 							: "opacity-0 -translate-y-4"
 					}`}>
 					<Link to="/nrsdesign/contact">
-						<button className="btn relative inline-flex items-center justify-start overflow-hidden font-medium transition-all bg-indigo-100 rounded hover:bg-white group py-3 px-8">
+						<button className="btn relative inline-flex items-center justify-start overflow-hidden font-medium transition-all bg-indigo-100 rounded hover:bg-white group py-3 px-8 dark:bg-indigo-500 dark:hover:bg-indigo-600">
 							<span className="w-56 h-48 rounded bg-indigo-600 absolute bottom-0 left-0 translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
-							<span className="relative w-full text-left text-indigo-600 transition-colors duration-300 ease-in-out group-hover:text-white">
+							<span className="relative w-full text-left text-indigo-600 transition-colors duration-300 ease-in-out group-hover:text-white dark:text-white">
 								Contact Us
 							</span>
 						</button>

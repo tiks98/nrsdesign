@@ -1,14 +1,14 @@
 import React from "react";
 export function TeamIntro() {
 	return (
-		<div className="bg-white py-6 sm:py-8 lg:py-12">
+		<div className="bg-white dark:bg-gray-900 py-6 sm:py-8 lg:py-12">
 			<div className="mx-auto max-w-screen-xl px-4 md:px-8">
 				<div className="mb-10 md:mb-16">
-					<h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">
+					<h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl dark:text-gray-100">
 						Meet our Team
 					</h2>
 
-					<p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
+					<p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg dark:text-gray-300">
 						Discover the visionaries behind NRS Design. Our talented team
 						combines creativity, expertise, and passion to bring your digital
 						dreams to life.
@@ -16,8 +16,8 @@ export function TeamIntro() {
 				</div>
 
 				<div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 lg:gap-8">
-					<div className="group relative flex flex-col items-center rounded-lg bg-gray-100 p-4 lg:p-8 transition duration-200 hover:scale-110">
-						<div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 shadow-lg md:mb-4 md:h-32 md:w-32">
+					<div className="group relative flex flex-col items-center rounded-lg bg-gray-100 dark:bg-gray-800 p-4 lg:p-8 transition duration-200 hover:scale-110">
+						<div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 shadow-lg md:mb-4 md:h-32 md:w-32">
 							<img
 								src={process.env.PUBLIC_URL + "/images/Tilak_Photo.jpeg"}
 								loading="lazy"
@@ -27,10 +27,10 @@ export function TeamIntro() {
 						</div>
 
 						<div>
-							<div className="text-center font-bold text-indigo-500 md:text-lg">
+							<div className="text-center font-bold text-indigo-500 dark:text-indigo-400 md:text-lg">
 								Tilak Suthar
 							</div>
-							<p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">
+							<p className="mb-3 text-center text-sm text-gray-500 dark:text-gray-400 md:mb-4 md:text-base">
 								Founder / CEO
 							</p>
 
@@ -38,7 +38,7 @@ export function TeamIntro() {
 								<div className="flex gap-4">
 									<a
 										href="https://www.linkedin.com/in/tilak-suthar/"
-										className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
+										className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600 dark:text-gray-500 dark:hover:text-gray-400 dark:active:text-gray-300">
 										<svg
 											className="h-5 w-5"
 											width="24"
@@ -52,7 +52,7 @@ export function TeamIntro() {
 
 									<a
 										href="https://x.com/tilaksuthar18"
-										className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
+										className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600 dark:text-gray-500 dark:hover:text-gray-400 dark:active:text-gray-300">
 										<svg
 											className="h-5 w-5"
 											width="24"
@@ -68,8 +68,8 @@ export function TeamIntro() {
 						</div>
 					</div>
 
-					<div className="group relative flex flex-col items-center rounded-lg bg-gray-100 p-4 lg:p-8 transition duration-200 hover:scale-110">
-						<div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 shadow-lg md:mb-4 md:h-32 md:w-32">
+					<div className="group relative flex flex-col items-center rounded-lg bg-gray-100 dark:bg-gray-800 p-4 lg:p-8 transition duration-200 hover:scale-110">
+						<div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 shadow-lg md:mb-4 md:h-32 md:w-32">
 							<img
 								src={process.env.PUBLIC_URL + "/images/Tilak_Photo.jpeg"}
 								loading="lazy"
@@ -79,10 +79,10 @@ export function TeamIntro() {
 						</div>
 
 						<div>
-							<div className="text-center font-bold text-indigo-500 md:text-lg">
+							<div className="text-center font-bold text-indigo-500 dark:text-indigo-400 md:text-lg">
 								Tilak Suthar
 							</div>
-							<p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">
+							<p className="mb-3 text-center text-sm text-gray-500 dark:text-gray-400 md:mb-4 md:text-base">
 								CTO
 							</p>
 
@@ -90,7 +90,7 @@ export function TeamIntro() {
 								<div className="flex gap-4">
 									<a
 										href="https://www.linkedin.com/in/tilak-suthar/"
-										className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
+										className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600 dark:text-gray-500 dark:hover:text-gray-400 dark:active:text-gray-300">
 										<svg
 											className="h-5 w-5"
 											width="24"
@@ -104,7 +104,7 @@ export function TeamIntro() {
 
 									<a
 										href="https://x.com/tilaksuthar18"
-										className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
+										className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600 dark:text-gray-500 dark:hover:text-gray-400 dark:active:text-gray-300">
 										<svg
 											className="h-5 w-5"
 											width="24"
@@ -120,8 +120,8 @@ export function TeamIntro() {
 						</div>
 					</div>
 
-					<div className="group relative flex flex-col items-center rounded-lg bg-gray-100 p-4 lg:p-8 transition duration-200 hover:scale-110">
-						<div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 shadow-lg md:mb-4 md:h-32 md:w-32">
+					<div className="group relative flex flex-col items-center rounded-lg bg-gray-100 dark:bg-gray-800 p-4 lg:p-8 transition duration-200 hover:scale-110">
+						<div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 shadow-lg md:mb-4 md:h-32 md:w-32">
 							<img
 								src={process.env.PUBLIC_URL + "/images/Tilak_Photo.jpeg"}
 								loading="lazy"
@@ -131,10 +131,10 @@ export function TeamIntro() {
 						</div>
 
 						<div>
-							<div className="text-center font-bold text-indigo-500 md:text-lg">
+							<div className="text-center font-bold text-indigo-500 dark:text-indigo-400 md:text-lg">
 								Tilak Suthar
 							</div>
-							<p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">
+							<p className="mb-3 text-center text-sm text-gray-500 dark:text-gray-400 md:mb-4 md:text-base">
 								CFO
 							</p>
 
@@ -142,7 +142,7 @@ export function TeamIntro() {
 								<div className="flex gap-4">
 									<a
 										href="https://www.linkedin.com/in/tilak-suthar/"
-										className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
+										className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600 dark:text-gray-500 dark:hover:text-gray-400 dark:active:text-gray-300">
 										<svg
 											className="h-5 w-5"
 											width="24"
@@ -156,7 +156,7 @@ export function TeamIntro() {
 
 									<a
 										href="https://x.com/tilaksuthar18"
-										className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
+										className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600 dark:text-gray-500 dark:hover:text-gray-400 dark:active:text-gray-300">
 										<svg
 											className="h-5 w-5"
 											width="24"
@@ -172,8 +172,8 @@ export function TeamIntro() {
 						</div>
 					</div>
 
-					<div className="group relative flex flex-col items-center rounded-lg bg-gray-100 p-4 lg:p-8 transition duration-200 hover:scale-110">
-						<div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 shadow-lg md:mb-4 md:h-32 md:w-32">
+					<div className="group relative flex flex-col items-center rounded-lg bg-gray-100 dark:bg-gray-800 p-4 lg:p-8 transition duration-200 hover:scale-110">
+						<div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700 shadow-lg md:mb-4 md:h-32 md:w-32">
 							<img
 								src={process.env.PUBLIC_URL + "/images/Tilak_Photo.jpeg"}
 								loading="lazy"
@@ -183,10 +183,10 @@ export function TeamIntro() {
 						</div>
 
 						<div>
-							<div className="text-center font-bold text-indigo-500 md:text-lg">
+							<div className="text-center font-bold text-indigo-500 dark:text-indigo-400 md:text-lg">
 								Tilak Suthar
 							</div>
-							<p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">
+							<p className="mb-3 text-center text-sm text-gray-500 dark:text-gray-400 md:mb-4 md:text-base">
 								Creative Director
 							</p>
 
@@ -194,7 +194,7 @@ export function TeamIntro() {
 								<div className="flex gap-4">
 									<a
 										href="https://www.linkedin.com/in/tilak-suthar/"
-										className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
+										className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600 dark:text-gray-500 dark:hover:text-gray-400 dark:active:text-gray-300">
 										<svg
 											className="h-5 w-5"
 											width="24"
@@ -208,7 +208,7 @@ export function TeamIntro() {
 
 									<a
 										href="https://x.com/tilaksuthar18"
-										className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
+										className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600 dark:text-gray-500 dark:hover:text-gray-400 dark:active:text-gray-300">
 										<svg
 											className="h-5 w-5"
 											width="24"

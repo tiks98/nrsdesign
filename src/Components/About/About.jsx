@@ -3,11 +3,11 @@ import HeroImage from "../Home/HeroImage";
 
 export function About() {
 	return (
-		<div className="bg-white py-6 sm:py-8 lg:py-12 mb-24">
+		<div className="bg-white dark:bg-gray-900 py-6 sm:py-8 lg:py-12 mb-24">
 			<div className="mx-auto max-w-screen-xl px-4 md:px-8">
 				<div className="grid gap-8 md:grid-cols-2 lg:gap-12">
 					<div>
-						<div className="h-64 overflow-hidden rounded-lg bg-white-100 md:h-full lg:h-full">
+						<div className="h-64 overflow-hidden rounded-lg bg-gray-100 dark:bg-gray-700 md:h-full lg:h-full">
 							{/* <img
 								src={process.env.PUBLIC_URL + "/images/About.jpg"}
 								loading="lazy"
@@ -19,15 +19,15 @@ export function About() {
 					</div>
 
 					<div className="md:pt-8">
-						<p className="text-center text-xl font-bold text-indigo-500 md:text-left">
+						<p className="text-center text-xl font-bold text-indigo-500 md:text-left dark:text-indigo-400">
 							Who we are
 						</p>
 
-						<h1 className="mb-4 text-center text-4xl font-bold text-gray-800 sm:text-5xl md:mb-6 md:text-left">
+						<h1 className="mb-4 text-center text-4xl font-bold text-gray-800 sm:text-5xl md:mb-6 md:text-left dark:text-gray-100">
 							About Us
 						</h1>
 
-						<p className="mb-6 text-gray-500 sm:text-2xl md:mb-8">
+						<p className="mb-6 text-gray-500 sm:text-2xl md:mb-8 dark:text-gray-300">
 							Welcome to NRS Design, where creativity meets precision. Nestled
 							in the heart of Barrie, ON, we are a small, passionate start-up
 							with a bold vision: to transform ideas into digital masterpieces.
@@ -42,11 +42,11 @@ export function About() {
 							yours, to thrive in the digital world.
 						</p>
 
-						{/* <h2  className="mb-2 text-center text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4 md:text-left">
+						{/* <h2  className="mb-2 text-center text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4 md:text-left dark:text-gray-200">
 							About us
 						</h2>
 
-						<p  className="mb-6 text-gray-500 sm:text-lg md:mb-8">
+						<p  className="mb-6 text-gray-500 sm:text-lg md:mb-8 dark:text-gray-400">
 							This is a section of some simple filler text, also known as
 							placeholder text. It shares some characteristics of a real written
 							text but is random or otherwise generated. It may be used to

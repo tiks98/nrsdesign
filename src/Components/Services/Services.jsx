@@ -4,7 +4,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 export const ServicesPage = () => {
 	return (
-		<div className="bg-white">
+		<div className="bg-white dark:bg-gray-900">
 			<TextParallaxContent
 				imgUrl="https://images.unsplash.com/photo-1504610926078-a1611febcad3?q=80&w=2416&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 				subheading="Custom"
@@ -108,11 +108,11 @@ const OverlayCopy = ({ subheading, heading }) => {
 
 const SupportText = () => (
 	<div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 px-4 pb-24 pt-12 md:grid-cols-12">
-		<h2 className="col-span-1 text-3xl font-bold md:col-span-4">
+		<h2 className="col-span-1 text-3xl font-bold text-gray-900 dark:text-gray-100 md:col-span-4">
 			Website Maintenance and Support
 		</h2>
 		<div className="col-span-1 md:col-span-8">
-			<p className="mb-4 text-xl text-neutral-600 md:text-2xl">
+			<p className="mb-4 text-xl text-neutral-600 dark:text-neutral-300 md:text-2xl">
 				Your website is an ongoing investment, and our dedicated team ensures it
 				remains updated, secure, and running smoothly. We offer comprehensive
 				maintenance packages to keep your site optimized and performing at its
@@ -126,11 +126,11 @@ const SupportText = () => (
 				Learn more <FiArrowUpRight className="inline" />
 			</button> */}
 		</div>
-		<h2 className="col-span-1 text-3xl font-bold md:col-span-4">
+		<h2 className="col-span-1 text-3xl font-bold text-gray-900 dark:text-gray-100 md:col-span-4">
 			Website Optimization and Performance
 		</h2>
 		<div className="col-span-1 md:col-span-8">
-			<p className="mb-4 text-xl text-neutral-600 md:text-2xl">
+			<p className="mb-4 text-xl text-neutral-600 dark:text-neutral-300 md:text-2xl">
 				To keep your website fast and user-friendly, we regularly optimize your
 				site’s performance. This not only improves user experience but also
 				boosts your SEO, making sure your site stays competitive.
@@ -148,11 +148,11 @@ const SupportText = () => (
 
 const WebsiteDesigningText = () => (
 	<div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 px-4 pb-24 pt-12 md:grid-cols-12">
-		<h2 className="col-span-1 text-3xl font-bold md:col-span-4">
+		<h2 className="col-span-1 text-3xl font-bold text-gray-900 dark:text-gray-100 md:col-span-4">
 			Custom Website Designing
 		</h2>
 		<div className="col-span-1 md:col-span-8">
-			<p className="mb-4 text-xl text-neutral-600 md:text-2xl">
+			<p className="mb-4 text-xl text-neutral-600 dark:text-neutral-300 md:text-2xl">
 				Your website is the face of your business, and we ensure it’s a true
 				reflection of your brand. Our team crafts unique, visually appealing
 				designs tailored to your specific needs. Whether it’s a sleek minimalist
@@ -167,11 +167,11 @@ const WebsiteDesigningText = () => (
 				Learn more <FiArrowUpRight className="inline" />
 			</button> */}
 		</div>
-		<h2 className="col-span-1 text-3xl font-bold md:col-span-4">
+		<h2 className="col-span-1 text-3xl font-bold text-gray-900 dark:text-gray-100 md:col-span-4">
 			Responsive and Mobile-Optimized Websites
 		</h2>
 		<div className="col-span-1 md:col-span-8">
-			<p className="mb-4 text-xl text-neutral-600 md:text-2xl">
+			<p className="mb-4 text-xl text-neutral-600 dark:text-neutral-300 md:text-2xl">
 				Your website will look great on every device. We ensure a seamless
 				experience for your visitors, whether they’re browsing on a smartphone,
 				tablet, or desktop, so you never miss an opportunity to engage with your
@@ -185,11 +185,11 @@ const WebsiteDesigningText = () => (
 				Learn more <FiArrowUpRight className="inline" />
 			</button> */}
 		</div>
-		<h2 className="col-span-1 text-3xl font-bold md:col-span-4">
+		<h2 className="col-span-1 text-3xl font-bold text-gray-900 dark:text-gray-100 md:col-span-4">
 			eCommerce Solutions
 		</h2>
 		<div className="col-span-1 md:col-span-8">
-			<p className="mb-4 text-xl text-neutral-600 md:text-2xl">
+			<p className="mb-4 text-xl text-neutral-600 dark:text-neutral-300 md:text-2xl">
 				Selling online has never been easier with our custom eCommerce
 				platforms. We integrate secure, scalable, and user-friendly solutions,
 				helping you maximize your online sales potential while offering your
@@ -208,11 +208,11 @@ const WebsiteDesigningText = () => (
 
 const QualityText = () => (
 	<div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 px-4 pb-24 pt-12 md:grid-cols-12">
-		<h2 className="col-span-1 text-3xl font-bold md:col-span-4">
+		<h2 className="col-span-1 text-3xl font-bold text-gray-900 dark:text-gray-100 md:col-span-4">
 			SEO Optimization
 		</h2>
 		<div className="col-span-1 md:col-span-8">
-			<p className="mb-4 text-xl text-neutral-600 md:text-2xl">
+			<p className="mb-4 text-xl text-neutral-600 dark:text-neutral-300 md:text-2xl">
 				A great website needs to be discoverable. Our SEO optimization services
 				ensure that your website ranks higher in search engines, driving organic
 				traffic and increasing visibility in your target market.
@@ -225,11 +225,11 @@ const QualityText = () => (
 				Learn more <FiArrowUpRight className="inline" />
 			</button> */}
 		</div>
-		<h2 className="col-span-1 text-3xl font-bold md:col-span-4">
+		<h2 className="col-span-1 text-3xl font-bold text-gray-900 dark:text-gray-100 md:col-span-4">
 			Brand Development
 		</h2>
 		<div className="col-span-1 md:col-span-8">
-			<p className="mb-4 text-xl text-neutral-600 md:text-2xl">
+			<p className="mb-4 text-xl text-neutral-600 dark:text-neutral-300 md:text-2xl">
 				Your brand is your identity, and we help you craft a compelling,
 				cohesive brand that resonates with your audience. Whether starting fresh
 				or refreshing an existing brand, we ensure your visuals, messaging, and

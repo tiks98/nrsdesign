@@ -1,14 +1,14 @@
 import React from "react";
 export function TrustedBy() {
 	return (
-		<div className="bg-white py-6 sm:py-8 lg:py-12">
+		<div className="bg-white dark:bg-gray-900 py-6 sm:py-8 lg:py-12">
 			<div className="mx-auto max-w-screen-2xl px-4 md:px-8">
-				<h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-8 lg:text-3xl">
+				<h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-8 lg:text-3xl dark:text-gray-100">
 					Trusted by the best
 				</h2>
 
-				<div className="grid grid-cols-2 gap-6 rounded-lg bg-gray-100 p-6 sm:h-40 sm:content-evenly md:grid-cols-4">
-					<div className="flex justify-center text-gray-400">
+				<div className="grid grid-cols-2 gap-6 rounded-lg bg-gray-100 dark:bg-gray-800 p-6 sm:h-40 sm:content-evenly md:grid-cols-4">
+					<div className="flex justify-center text-gray-400 dark:text-gray-500">
 						<svg
 							className="h-6 w-auto sm:h-8 lg:h-10"
 							width="154"
@@ -21,7 +21,7 @@ export function TrustedBy() {
 						</svg>
 					</div>
 
-					<div className="flex justify-center text-gray-400">
+					<div className="flex justify-center text-gray-400 dark:text-gray-500">
 						<svg
 							className="h-6 w-auto sm:h-8 lg:h-10"
 							width="186"
@@ -34,7 +34,7 @@ export function TrustedBy() {
 						</svg>
 					</div>
 
-					<div className="flex justify-center text-gray-400">
+					<div className="flex justify-center text-gray-400 dark:text-gray-500">
 						<svg
 							className="h-6 w-auto sm:h-8 lg:h-10"
 							width="173"
@@ -57,7 +57,7 @@ export function TrustedBy() {
 						</svg>
 					</div>
 
-					<div className="flex justify-center text-gray-400">
+					<div className="flex justify-center text-gray-400 dark:text-gray-500">
 						<svg
 							className="h-6 w-auto sm:h-8 lg:h-10"
 							width="146"

@@ -67,13 +67,13 @@ export function ContactForm() {
 	};
 
 	return (
-		<div className="bg-white lg:mb-48 sm:mb-24">
+		<div className="bg-white dark:bg-gray-900 lg:mb-48 sm:mb-24">
 			<div className="mx-auto max-w-screen-2xl px-4 md:px-8">
 				<div className="mb-10 md:mb-16">
-					<h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">
+					<h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl dark:text-gray-100">
 						Get in touch
 					</h2>
-					<p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
+					<p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg dark:text-gray-300">
 						Thank you for reaching out to NRS Design! We value your inquiry and
 						will get back to you as soon as possible. Whether it's about our
 						services, collaboration, or any questions you may have, we're here
@@ -88,7 +88,7 @@ export function ContactForm() {
 					<div>
 						<label
 							htmlFor="firstName"
-							className="mb-2 inline-block text-sm text-gray-800 sm:text-base">
+							className="mb-2 inline-block text-sm text-gray-800 sm:text-base dark:text-gray-100">
 							First name*
 						</label>
 						<input
@@ -97,14 +97,14 @@ export function ContactForm() {
 							placeholder="First Name"
 							value={formData.firstName}
 							onChange={handleInputChange}
-							className="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring"
+							className="w-full rounded border bg-gray-50 dark:bg-gray-700 px-3 py-2 text-gray-800 dark:text-gray-100 outline-none ring-indigo-300 dark:ring-indigo-500 transition duration-100 focus:ring dark:border-gray-600"
 						/>
 					</div>
 
 					<div>
 						<label
 							htmlFor="lastName"
-							className="mb-2 inline-block text-sm text-gray-800 sm:text-base">
+							className="mb-2 inline-block text-sm text-gray-800 sm:text-base dark:text-gray-100">
 							Last name*
 						</label>
 						<input
@@ -113,14 +113,14 @@ export function ContactForm() {
 							placeholder="Last Name"
 							value={formData.lastName}
 							onChange={handleInputChange}
-							className="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring"
+							className="w-full rounded border bg-gray-50 dark:bg-gray-700 px-3 py-2 text-gray-800 dark:text-gray-100 outline-none ring-indigo-300 dark:ring-indigo-500 transition duration-100 focus:ring dark:border-gray-600"
 						/>
 					</div>
 
 					<div className="sm:col-span-2">
 						<label
 							htmlFor="company"
-							className="mb-2 inline-block text-sm text-gray-800 sm:text-base">
+							className="mb-2 inline-block text-sm text-gray-800 sm:text-base dark:text-gray-100">
 							Company
 						</label>
 						<input
@@ -128,20 +128,20 @@ export function ContactForm() {
 							placeholder="Company Name"
 							value={formData.company}
 							onChange={handleInputChange}
-							className="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring"
+							className="w-full rounded border bg-gray-50 dark:bg-gray-700 px-3 py-2 text-gray-800 dark:text-gray-100 outline-none ring-indigo-300 dark:ring-indigo-500 transition duration-100 focus:ring dark:border-gray-600"
 						/>
 					</div>
 
 					<div className="sm:col-span-2">
 						<label
 							htmlFor="email"
-							className="mb-2 inline-block text-sm text-gray-800 sm:text-base">
+							className="mb-2 inline-block text-sm text-gray-800 sm:text-base dark:text-gray-100">
 							Email*
 						</label>
 						<div className="relative">
 							<div className="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
 								<svg
-									className="w-4 h-4 text-gray-500 dark:text-gray-400"
+									className="w-4 h-4 text-gray-500 dark:text-gray-400" // Already had dark:text-gray-400
 									aria-hidden="true"
 									xmlns="http://www.w3.org/2000/svg"
 									fill="currentColor"
@@ -158,7 +158,7 @@ export function ContactForm() {
 								value={formData.email}
 								onChange={handleInputChange}
 								placeholder="example@email.com"
-								className="w-full rounded border bg-gray-50 px-3 ps-10 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring"
+								className="w-full rounded border bg-gray-50 dark:bg-gray-700 px-3 ps-10 py-2 text-gray-800 dark:text-gray-100 outline-none ring-indigo-300 dark:ring-indigo-500 transition duration-100 focus:ring dark:border-gray-600"
 							/>
 						</div>
 					</div>
@@ -166,7 +166,7 @@ export function ContactForm() {
 					<div className="sm:col-span-2">
 						<label
 							htmlFor="subject"
-							className="mb-2 inline-block text-sm text-gray-800 sm:text-base">
+							className="mb-2 inline-block text-sm text-gray-800 sm:text-base dark:text-gray-100">
 							Subject*
 						</label>
 						<input
@@ -175,14 +175,14 @@ export function ContactForm() {
 							placeholder="Subject"
 							value={formData.subject}
 							onChange={handleInputChange}
-							className="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring"
+							className="w-full rounded border bg-gray-50 dark:bg-gray-700 px-3 py-2 text-gray-800 dark:text-gray-100 outline-none ring-indigo-300 dark:ring-indigo-500 transition duration-100 focus:ring dark:border-gray-600"
 						/>
 					</div>
 
 					<div className="sm:col-span-2">
 						<label
 							htmlFor="message"
-							className="mb-2 inline-block text-sm text-gray-800 sm:text-base">
+							className="mb-2 inline-block text-sm text-gray-800 sm:text-base dark:text-gray-100">
 							Message*
 						</label>
 						<textarea
@@ -191,24 +191,24 @@ export function ContactForm() {
 							placeholder="Please write your message here..."
 							value={formData.message}
 							onChange={handleInputChange}
-							className="h-32 w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring"></textarea>
+							className="h-32 w-full rounded border bg-gray-50 dark:bg-gray-700 px-3 py-2 text-gray-800 dark:text-gray-100 outline-none ring-indigo-300 dark:ring-indigo-500 transition duration-100 focus:ring dark:border-gray-600"></textarea>
 					</div>
 
 					<div className="flex items-center justify-between sm:col-span-2">
 						<button
 							type="submit"
-							className="inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">
+							className="inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:active:bg-indigo-800">
 							Send
 						</button>
 
-						<span className="text-sm text-gray-500">*Required</span>
+						<span className="text-sm text-gray-500 dark:text-gray-400">*Required</span>
 					</div>
 
-					<p className="text-xs text-gray-400">
+					<p className="text-xs text-gray-400 dark:text-gray-500">
 						By signing up to our newsletter you agree to our{" "}
 						<a
 							href="/nrsdesign"
-							className="underline transition duration-100 hover:text-indigo-500 active:text-indigo-600">
+							className="underline transition duration-100 hover:text-indigo-500 active:text-indigo-600 dark:hover:text-indigo-400 dark:active:text-indigo-500">
 							Privacy Policy
 						</a>
 						.
@@ -218,7 +218,7 @@ export function ContactForm() {
 
 				{status.variant === "success" && status.show && (
 					<div
-						className="mx-auto max-w-screen-md mt-4 mb-4 bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative"
+						className="mx-auto max-w-screen-md mt-4 mb-4 bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative dark:bg-green-900 dark:border-green-700 dark:text-green-300"
 						role="alert">
 						<strong className="font-bold">Thank You!</strong>{" "}
 						<span className="block sm:inline">{status.message}</span>
@@ -227,7 +227,7 @@ export function ContactForm() {
 
 				{status.variant === "danger" && status.show && (
 					<div
-						className="mx-auto max-w-screen-md mt-4 mb-4 bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative"
+						className="mx-auto max-w-screen-md mt-4 mb-4 bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative dark:bg-red-900 dark:border-red-700 dark:text-red-300"
 						role="alert">
 						<strong className="font-bold">Oops!</strong>{" "}
 						<span className="block sm:inline">{status.message}</span>

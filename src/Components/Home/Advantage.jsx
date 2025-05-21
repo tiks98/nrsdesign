@@ -1,14 +1,14 @@
 import React from "react";
 export function Advantage() {
 	return (
-		<div className="bg-white py-6 sm:py-8 lg:py-12">
+		<div className="bg-white dark:bg-gray-900 py-6 sm:py-8 lg:py-12">
 			<div className="mx-auto max-w-screen-2xl px-4 md:px-8">
 				<div className="mb-10 md:mb-16">
-					<h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">
+					<h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl dark:text-gray-100">
 						Our competitive advantage
 					</h2>
 
-					<p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
+					<p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg dark:text-gray-300">
 						This is a section of some simple filler text, also known as
 						placeholder text. It shares some characteristics of a real written
 						text but is random or otherwise generated.
@@ -34,14 +34,14 @@ export function Advantage() {
 						</div>
 
 						<div>
-							<h3 className="mb-2 text-lg font-semibold md:text-xl">Growth</h3>
-							<p className="mb-2 text-gray-500">
+							<h3 className="mb-2 text-lg font-semibold md:text-xl text-gray-900 dark:text-gray-100">Growth</h3>
+							<p className="mb-2 text-gray-500 dark:text-gray-300">
 								Filler text is dummy text which has no meaning however looks
 								very similar to real text.
 							</p>
 							<a
 								href="/"
-								className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">
+								className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700 dark:text-indigo-400 dark:hover:text-indigo-500 dark:active:text-indigo-600">
 								More
 							</a>
 						</div>
@@ -64,16 +64,16 @@ export function Advantage() {
 						</div>
 
 						<div>
-							<h3 className="mb-2 text-lg font-semibold md:text-xl">
+							<h3 className="mb-2 text-lg font-semibold md:text-xl text-gray-900 dark:text-gray-100">
 								Security
 							</h3>
-							<p className="mb-2 text-gray-500">
+							<p className="mb-2 text-gray-500 dark:text-gray-300">
 								Filler text is dummy text which has no meaning however looks
 								very similar to real text.
 							</p>
 							<a
 								href="/"
-								className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">
+								className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700 dark:text-indigo-400 dark:hover:text-indigo-500 dark:active:text-indigo-600">
 								More
 							</a>
 						</div>
@@ -96,14 +96,14 @@ export function Advantage() {
 						</div>
 
 						<div>
-							<h3 className="mb-2 text-lg font-semibold md:text-xl">Cloud</h3>
-							<p className="mb-2 text-gray-500">
+							<h3 className="mb-2 text-lg font-semibold md:text-xl text-gray-900 dark:text-gray-100">Cloud</h3>
+							<p className="mb-2 text-gray-500 dark:text-gray-300">
 								Filler text is dummy text which has no meaning however looks
 								very similar to real text.
 							</p>
 							<a
 								href="/"
-								className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">
+								className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700 dark:text-indigo-400 dark:hover:text-indigo-500 dark:active:text-indigo-600">
 								More
 							</a>
 						</div>
@@ -126,14 +126,14 @@ export function Advantage() {
 						</div>
 
 						<div>
-							<h3 className="mb-2 text-lg font-semibold md:text-xl">Speed</h3>
-							<p className="mb-2 text-gray-500">
+							<h3 className="mb-2 text-lg font-semibold md:text-xl text-gray-900 dark:text-gray-100">Speed</h3>
+							<p className="mb-2 text-gray-500 dark:text-gray-300">
 								Filler text is dummy text which has no meaning however looks
 								very similar to real text.
 							</p>
 							<a
 								href="/"
-								className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">
+								className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700 dark:text-indigo-400 dark:hover:text-indigo-500 dark:active:text-indigo-600">
 								More
 							</a>
 						</div>
@@ -156,14 +156,14 @@ export function Advantage() {
 						</div>
 
 						<div>
-							<h3 className="mb-2 text-lg font-semibold md:text-xl">Support</h3>
-							<p className="mb-2 text-gray-500">
+							<h3 className="mb-2 text-lg font-semibold md:text-xl text-gray-900 dark:text-gray-100">Support</h3>
+							<p className="mb-2 text-gray-500 dark:text-gray-300">
 								Filler text is dummy text which has no meaning however looks
 								very similar to real text.
 							</p>
 							<a
 								href="/"
-								className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">
+								className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700 dark:text-indigo-400 dark:hover:text-indigo-500 dark:active:text-indigo-600">
 								More
 							</a>
 						</div>
@@ -186,16 +186,16 @@ export function Advantage() {
 						</div>
 
 						<div>
-							<h3 className="mb-2 text-lg font-semibold md:text-xl">
+							<h3 className="mb-2 text-lg font-semibold md:text-xl text-gray-900 dark:text-gray-100">
 								Dark Mode
 							</h3>
-							<p className="mb-2 text-gray-500">
+							<p className="mb-2 text-gray-500 dark:text-gray-300">
 								Filler text is dummy text which has no meaning however looks
 								very similar to real text.
 							</p>
 							<a
 								href="/"
-								className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">
+								className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700 dark:text-indigo-400 dark:hover:text-indigo-500 dark:active:text-indigo-600">
 								More
 							</a>
 						</div>

@@ -32,13 +32,13 @@ export const ServicesCard = () => {
 			initial="hidden"
 			animate={isInView ? "visible" : "hidden"}
 			variants={staggerVariants}
-			className="mx-auto max-w-7xl px-4 py-12 text-slate-800">
+			className="mx-auto max-w-7xl px-4 py-12 text-slate-800 dark:text-slate-200">
 			<motion.div
 				variants={cardVariants}
 				className="mb-8 flex flex-col items-start justify-between gap-4 md:flex-row md:items-end md:px-8">
-				<h2 className="max-w-lg text-4xl font-bold md:text-5xl">
+				<h2 className="max-w-lg text-4xl font-bold md:text-5xl"> {/* Inherits text-slate-800 dark:text-slate-200 */}
 					Grow faster with our <br />
-					<span className="text-slate-400"> all in one solution</span>
+					<span className="text-slate-400 dark:text-slate-500"> all in one solution</span>
 				</h2>
 				<Link to="/nrsdesign/services">
 					<motion.button
@@ -140,7 +140,7 @@ const BounceCard = ({ className, children, variants }) => {
 			variants={variants}
 			whileHover={{ scale: 0.95, rotate: "-1deg" }}
 			whileTap={{ scale: 0.9 }}
-			className={`group relative min-h-[300px] cursor-pointer overflow-hidden rounded-2xl bg-slate-100 p-8 ${className}`}>
+			className={`group relative min-h-[300px] cursor-pointer overflow-hidden rounded-2xl bg-slate-100 dark:bg-slate-800 p-8 ${className}`}>
 			{children}
 		</motion.div>
 	);
