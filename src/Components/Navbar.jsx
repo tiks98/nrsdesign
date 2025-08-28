@@ -13,7 +13,7 @@ export function Navbar() {
 			<div className="mx-auto max-w-screen-2xl px-4 md:px-8">
 				<header className="mb-8 flex items-center justify-between py- 4 md:mb- 8 md:py- 8 xl:mb- 12">
 					<a
-						href="/nrsdesign"
+						href="/"
 						className="inline-flex items-center gap-2.5 text-2xl font-bold text-black md:text-3xl transform transition duration-300 hover:scale-110"
 						aria-label="logo">
 						<img
@@ -27,7 +27,7 @@ export function Navbar() {
 					{/* Desktop Navigation */}
 					<nav className="hidden gap-12 lg:flex">
 						<NavLink
-							to="/nrsdesign/home"
+							to="/home"
 							className={({ isActive }) =>
 								isActive
 									? "text-lg font-semibold text-indigo-500 relative group"
@@ -38,7 +38,7 @@ export function Navbar() {
 							<span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-indigo-600 group-hover:w-3/6"></span>
 						</NavLink>
 						<NavLink
-							to="/nrsdesign/services"
+							to="/services"
 							className={({ isActive }) =>
 								isActive
 									? "text-lg font-semibold text-indigo-500 relative group"
@@ -49,7 +49,7 @@ export function Navbar() {
 							<span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-indigo-600 group-hover:w-3/6"></span>
 						</NavLink>
 						<NavLink
-							to="/nrsdesign/about"
+							to="/about"
 							className={({ isActive }) =>
 								isActive
 									? "text-lg font-semibold text-indigo-500 relative group"
@@ -61,9 +61,9 @@ export function Navbar() {
 						</NavLink>
 					</nav>
 
-					<NavLink to="/nrsdesign/contact">
+					<NavLink to="/contact">
 						<a
-							href="/nrsdesign/contact"
+							href="/contact"
 							className="relative hidden inline-block overflow-hidden font-semibold bg-gray-200 px-8 py-3 text-center text-sm text-gray-500 rounded-lg outline-none ring-indigo-300 transition-all duration-500 group hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:inline-block">
 							<span className="w-56 h-48 rounded bg-indigo-600 absolute bottom-0 left-0 translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
 							<span className="relative w-full text-left text-gray-500 transition-colors duration-300 ease-in-out group-hover:text-white">
@@ -96,7 +96,7 @@ export function Navbar() {
 						<nav className="lg:hidden absolute top-16 left-0 w-full bg-white shadow-md rounded-lg z-10">
 							<ul className="flex flex-col items-center gap-4 p-4">
 								<NavLink
-									to="/nrsdesign"
+									to="/home"
 									onClick={toggleDropdown} // Close dropdown after clicking
 									className={({ isActive }) =>
 										isActive
@@ -106,7 +106,7 @@ export function Navbar() {
 									Home
 								</NavLink>
 								<NavLink
-									to="/nrsdesign/services"
+									to="/services"
 									onClick={toggleDropdown}
 									className={({ isActive }) =>
 										isActive
@@ -116,7 +116,7 @@ export function Navbar() {
 									Services
 								</NavLink>
 								<NavLink
-									to="/nrsdesign/about"
+									to="/about"
 									onClick={toggleDropdown}
 									className={({ isActive }) =>
 										isActive
@@ -126,7 +126,7 @@ export function Navbar() {
 									About
 								</NavLink>
 								<NavLink
-									to="/nrsdesign/contact"
+									to="/contact"
 									onClick={toggleDropdown}
 									className={({ isActive }) =>
 										isActive

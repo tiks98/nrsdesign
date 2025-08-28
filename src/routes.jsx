@@ -12,10 +12,10 @@ import { Navigate } from "react-router-dom";
 
 const routes = [
 	{
-		path: "/nrsdesign",
+		path: "/",
 		element: <Landing />,
 		children: [
-			{ path: "", element: <Navigate to="/nrsdesign/home" />},
+			{ path: "", element: <Navigate to="/home" /> },
 			{ path: "home", element: <HomePage /> },
 			{ path: "services", element: <Services /> },
 			{ path: "about", element: <AboutUs /> },

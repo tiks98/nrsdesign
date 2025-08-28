@@ -207,7 +207,7 @@ export function ContactForm() {
 					<p className="text-xs text-gray-400">
 						By signing up to our newsletter you agree to our{" "}
 						<a
-							href="/nrsdesign"
+							href="/"
 							className="underline transition duration-100 hover:text-indigo-500 active:text-indigo-600">
 							Privacy Policy
 						</a>

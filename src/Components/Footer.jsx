@@ -7,9 +7,9 @@ export function Footer() {
 				<div className="mb-16 grid grid-cols-2 gap-12 pt-10 md:grid-cols-4 lg:grid-cols-6 lg:gap-8 lg:pt-12">
 					<div className="col-span-full lg:col-span-2">
 						<div className="mb-4 lg:-mt-2">
-							<Link to="/nrsdesign">
+							<Link to="/">
 								<a
-									href="/nrsdesign"
+									href="/"
 									className="inline-flex items-center gap-2 text-xl font-bold text-gray-100 md:text-2xl"
 									aria-label="logo">
 									{/* <svg
@@ -102,9 +102,9 @@ export function Footer() {
 
 						<nav className="flex flex-col gap-4">
 							<div>
-								<Link to="/nrsdesign">
+								<Link to="/">
 									<a
-										href="/nrsdesign"
+										href="/"
 										className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600">
 										Overview
 									</a>
@@ -112,9 +112,9 @@ export function Footer() {
 							</div>
 
 							<div>
-								<Link to="/nrsdesign/services">
+								<Link to="/services">
 									<a
-										href="/nrsdesign/services"
+										href="/services"
 										className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600">
 										Services
 									</a>
@@ -129,9 +129,9 @@ export function Footer() {
 
 						<nav className="flex flex-col gap-4">
 							<div>
-								<Link to="/nrsdesign/about">
+								<Link to="/about">
 									<a
-										href="/nrsdesign/about"
+										href="/about"
 										className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600">
 										About
 									</a>
@@ -146,9 +146,9 @@ export function Footer() {
 
 						<nav className="flex flex-col gap-4">
 							<div>
-								<Link to="/nrsdesign/contact">
+								<Link to="/contact">
 									<a
-										href="/nrsdesign/contact"
+										href="/contact"
 										className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600">
 										Contact
 									</a>
@@ -164,9 +164,9 @@ export function Footer() {
 							</div>
 
 							<div>
-								<Link to="/nrsdesign/contact">
+								<Link to="/contact">
 									<a
-										href="/nrsdesign/contact"
+										href="/contact"
 										className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600">
 										Chat
 									</a>
