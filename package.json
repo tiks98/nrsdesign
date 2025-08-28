@@ -2,7 +2,7 @@
 	"name": "nrsdesign",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "http://nrsdesign.ca/home",
+	"homepage": "http://nrsdesign.ca/",
 	"dependencies": {
 		"@lottiefiles/dotlottie-react": "^0.12.3",
 		"@lottiefiles/dotlottie-web": "^0.40.1",
