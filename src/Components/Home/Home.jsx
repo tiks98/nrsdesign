@@ -7,6 +7,7 @@ import React from "react";
 import { ServicesCard } from "./ServicesCard";
 import { Hero } from "./Hero";
 import { Deploy, Design, Develop, Support } from "./Design";
+import { AISolutions } from "./AI";
 
 const Home = () => {
 	return (
@@ -23,6 +24,8 @@ const Home = () => {
 				<Deploy />
 				<hr className="visible mx-6 my-4 sm:visible md:invisible lg:invisible lg:my-0 xl:my-0" />
 				<Support />
+				<hr className="visible mx-6 my-4 sm:visible md:invisible lg:invisible lg:my-0 xl:my-0" />
+				<AISolutions />
 			</div>
 			{/* <Advantage /> */}
 			{/* <TrustedBy /> */}
